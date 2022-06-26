@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enclave", "enclave\enclave.vcxproj", "{8BD4D21A-2E13-4F15-86FA-32172ACC7AB4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app", "app\app.vcxproj", "{6645DBD1-4085-4A49-8C85-9629C691BFEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8BD4D21A-2E13-4F15-86FA-32172ACC7AB4} = {8BD4D21A-2E13-4F15-86FA-32172ACC7AB4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
